@@ -1,5 +1,5 @@
 ### README - Course Project, Getting and Cleaning Data
-The purpose og the course project of Module 3 "Getting and Cleaning Data" is to demonstrate the students ability to collect, work with, and clean a
+The purpose of the course project of Module 3 "Getting and Cleaning Data" is to demonstrate the students ability to collect, work with, and clean a
 data set to produce tidy data useful for further analysis.
 
 The data and all the supplementary files for this project are produced by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, and Luca Oneto (Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012.).  
