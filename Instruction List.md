@@ -12,14 +12,14 @@ The remaing code should reproduce exactly the same two tidy datasets, as no othe
 1) Merges the training and the test sets to create one data set.
 	- After downloading and unzipping the files, a list of the files is obtained (28 elements) and each of the relevant data files are read into R with descriptive variable names added using the '*read.table*' function.
 	- The test data and training data are then merged using the '*cbind*' and '*rbind*' functions, ultimately rendering a **"Merged_Data" data set with 10299 obs. of 563 variables**.  
-<br>
+
 2) Extracts only the measurements on the mean and standard deviation for each measurement.
 	- The '*grep*' function is used to subset the variables that represent either mean og standard deviation specified by the variable name.
 	- '*Select*' is then used to combine only the relevant variables/columns into a new dataframe (the "meanFreq" variables are weighted averages and are not considered to be included as a 'mean' because a mean() variable is also specifically given). This renders a **"Merged_Data" data set with 10299 obs. of 68 variables**.  
-<br>
+
 3) Uses descriptive activity names to name the activities in the data set.
 	- Using '*sub*' the values of the Activity variable are substituted by the corresponding descriptive labels given in the "activity_labels" file.  
-<br>
+
 4) Appropriately labels the data set with descriptive variable names.
 	- Abbreviations in the variables names are substituted by more descriptive words using the '*gsub*' function.  
 
